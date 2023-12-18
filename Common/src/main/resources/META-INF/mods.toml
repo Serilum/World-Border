@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20World%20Border"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20World%20Border"
 logoFile="icon.png"
 
 [[mods]]
 modId="worldborder"
-version="4.2"
+version="4.3"
 displayName="World Border"
-displayURL="https://curseforge.com/minecraft/mc-mods/world-border"
+displayURL="https://serilum.com/mod/world-border"
 authors="Rick South"
 description='''Allows the creation of a configurable world border for each dimension, limiting the world size.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.worldborder]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.worldborder]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.1]"
     ordering="NONE"

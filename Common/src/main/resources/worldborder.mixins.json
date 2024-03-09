@@ -1,10 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.worldborder.forge.mixin",
-  "plugin": "com.natamus.collective.forge.mixin.plugin.ForgeMixinConfigPlugin",
+  "package": "com.natamus.worldborder.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "worldborder_forge.refmap.json",
   "mixins": [
 
   ],

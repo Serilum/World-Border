@@ -1,7 +1,7 @@
 package com.natamus.worldborder.events;
 
 import com.natamus.collective.functions.BlockPosFunctions;
-import com.natamus.collective.functions.StringFunctions;
+import com.natamus.collective.functions.MessageFunctions;
 import com.natamus.worldborder.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
@@ -142,10 +142,10 @@ public class BorderEvent {
 			player.teleportTo(newpos.getX(), newpos.getY(), newpos.getZ());
 			
 			if (shouldloop) {
-				StringFunctions.sendMessage(player, ConfigHandler.loopBorderMessage, ChatFormatting.DARK_GREEN);
+				MessageFunctions.sendMessage(player, ConfigHandler.loopBorderMessage, ChatFormatting.DARK_GREEN);
 			}
 			else {
-				StringFunctions.sendMessage(player, ConfigHandler.hitBorderMessage, ChatFormatting.RED);
+				MessageFunctions.sendMessage(player, ConfigHandler.hitBorderMessage, ChatFormatting.RED);
 			}
 		}
 		else {
@@ -184,7 +184,7 @@ public class BorderEvent {
 					return;
 				}
 				
-				StringFunctions.sendMessage(player, ConfigHandler.nearBorderMessage, ChatFormatting.YELLOW);
+				MessageFunctions.sendMessage(player, ConfigHandler.nearBorderMessage, ChatFormatting.YELLOW);
 			}
 		}
 	}

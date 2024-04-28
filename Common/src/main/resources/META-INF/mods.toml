@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="worldborder"
-version="4.5"
+version="4.6"
 displayName="World Border"
 displayURL="https://serilum.com/mod/world-border"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.worldborder]]
     modId="collective"
     mandatory=true
-    versionRange="[7.52,)"
+    versionRange="[7.54,)"
     ordering="NONE"
     side="BOTH"
 

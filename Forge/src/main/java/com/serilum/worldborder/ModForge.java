@@ -1,10 +1,10 @@
-package com.natamus.worldborder;
+package com.serilum.worldborder;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.worldborder.forge.config.IntegrateForgeConfig;
-import com.natamus.worldborder.forge.events.ForgeBorderEvent;
-import com.natamus.worldborder.util.Reference;
+import com.serilum.worldborder.forge.config.IntegrateForgeConfig;
+import com.serilum.worldborder.forge.events.ForgeBorderEvent;
+import com.serilum.worldborder.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeBorderEvent.registerEventsInBus();
+		ForgeBorderEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

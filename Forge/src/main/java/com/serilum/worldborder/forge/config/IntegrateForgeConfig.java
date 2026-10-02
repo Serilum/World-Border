@@ -1,7 +1,7 @@
-package com.natamus.worldborder.forge.config;
+package com.serilum.worldborder.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.worldborder.util.Reference;
+import com.serilum.worldborder.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

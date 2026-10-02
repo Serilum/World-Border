@@ -1,6 +1,6 @@
-package com.natamus.worldborder;
+package com.serilum.worldborder;
 
-import com.natamus.worldborder.config.ConfigHandler;
+import com.serilum.worldborder.config.ConfigHandler;
 
 public class ModCommon {
 

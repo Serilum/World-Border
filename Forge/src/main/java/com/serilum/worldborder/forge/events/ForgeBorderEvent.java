@@ -1,6 +1,6 @@
-package com.natamus.worldborder.forge.events;
+package com.serilum.worldborder.forge.events;
 
-import com.natamus.worldborder.events.BorderEvent;
+import com.serilum.worldborder.events.BorderEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;

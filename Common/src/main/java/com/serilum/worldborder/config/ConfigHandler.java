@@ -1,7 +1,7 @@
-package com.natamus.worldborder.config;
+package com.serilum.worldborder.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.worldborder.util.Reference;
+import com.serilum.worldborder.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

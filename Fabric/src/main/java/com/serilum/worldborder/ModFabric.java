@@ -1,10 +1,10 @@
-package com.natamus.worldborder;
+package com.serilum.worldborder;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectivePlayerEvents;
-import com.natamus.worldborder.events.BorderEvent;
-import com.natamus.worldborder.util.Reference;
+import com.serilum.worldborder.events.BorderEvent;
+import com.serilum.worldborder.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;

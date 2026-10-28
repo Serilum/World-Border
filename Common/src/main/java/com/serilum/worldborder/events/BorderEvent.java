@@ -1,8 +1,8 @@
-package com.natamus.worldborder.events;
+package com.serilum.worldborder.events;
 
 import com.natamus.collective.functions.BlockPosFunctions;
 import com.natamus.collective.functions.MessageFunctions;
-import com.natamus.worldborder.config.ConfigHandler;
+import com.serilum.worldborder.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
